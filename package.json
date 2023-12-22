@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -16,5 +17,9 @@
   "bugs": {
     "url": "https://github.com/MounirAia/GangOfFourDesignPattern/issues"
   },
-  "homepage": "https://github.com/MounirAia/GangOfFourDesignPattern#readme"
+  "homepage": "https://github.com/MounirAia/GangOfFourDesignPattern#readme",
+  "devDependencies": {
+    "@types/node": "^20.10.5",
+    "typescript": "^5.3.3"
+  }
 }
